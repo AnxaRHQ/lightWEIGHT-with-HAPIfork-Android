@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D3D3D3"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/headermain"
+            layout="@layout/header_main" />
+
+        <include
+            android:id="@+id/headersecondary"
+            layout="@layout/header_secondary" />
+
+        <include
+            android:id="@+id/stats"
+            layout="@layout/stats" />
+
+        <include
+            android:id="@+id/livemode"
+            layout="@layout/livemode" />
+
+        <include
+            android:id="@+id/messagemode"
+            layout="@layout/messagemode"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <ImageView
+                android:id="@+id/start_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ble_live_start_v2">
+
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/reset_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ble_live_reset_v2">
+
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/overlay_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/overlay"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+    </LinearLayout>
+
+</RelativeLayout>

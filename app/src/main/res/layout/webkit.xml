@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/webviewcontainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000" />
+
+    <!--     <include android:background="#000000" android:layout_width="match_parent" android:layout_weight="1" android:layout_height="0dp"  android:id="@+id/gtabs" layout="@layout/gtabspage" />
+     -->
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/header" />
+
+    <!--
+    <include android:layout_weight="6"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:id="@+id/gtabs"
+    layout="@layout/footer" />
+    -->
+
+
+    <RelativeLayout
+        android:id="@+id/dummy_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ProgressBar
+            android:id="@+id/notificatios_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+</RelativeLayout>

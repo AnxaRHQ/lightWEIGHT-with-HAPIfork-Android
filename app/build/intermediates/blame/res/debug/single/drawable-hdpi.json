@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-hdpi/overlay.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-hdpi/overlay.png"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-hdpi/splash.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_bite_over.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-hdpi/btn_bite_over.png"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_menu_white_24dp.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-hdpi/ic_menu_white_24dp.png"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-hdpi/bg01.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-hdpi/bg01.png"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-hdpi/headerlogo.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-hdpi/headerlogo.png"
+    }
+]

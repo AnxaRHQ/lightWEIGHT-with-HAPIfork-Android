@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="app_name" translatable="false">lightWEIGHT with HAPIfork</string>
+    <string name="ble_connect_message">Terhubung dengan</string>
+    <string name="ble_connect_message_help">Tekan ikon untuk menyambungkan Hapifork</string>
+    <string name="ble_disconnect_message">Tidak tersambung</string>
+    <string name="ble_message">Makan perlahan dengan Hapifork</string>
+    <string name="ble_not_supported" translatable="false">BLE is not supported</string>
+    <string name="bluetooth_not_available" translatable="false">Bluetooth is not available</string>
+    <string name="bluetooth_turned_on" translatable="false">Bluetooth has turned on </string>
+    <string name="cancel_btn">Batalkan</string>
+    <string name="cancel_setup">Batalkan Setup</string>
+    <string name="click_start_button_first" translatable="false">Silahkan klik Start terlebih dahulu untuk memulai makan</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">96c3d038-1ec1-4566-97b4-02e976cfa35e</string>
+    <string name="connect_hapifork" translatable="false">Sambungkan HAPIfork ini</string>
+    <string name="connect_hapifork_first" translatable="false">Mohon sambungkan dengan HAPIfork terlebih dahulu</string>
+    <string name="connected">Tersambung</string>
+    <string name="create_account_success" translatable="false">You have successfully created your account</string>
+    <string name="dashboard_duration">Durasi</string>
+    <string name="dashboard_fork_serving">Jumlah Suap    </string>
+    <string name="dashboard_last_interval">Interval Terakhir</string>
+    <string name="dashboard_meal_start">Jam mulai</string>
+    <string name="dashboard_success">Berhasil</string>
+    <string name="dashboard_target_interval" translatable="false">Target Interval</string>
+    <string name="device_already_paired">Ooops! Perangkat ini di</string>
+    <string name="device_connected" translatable="false">Device connected: </string>
+    <string name="device_disconnected">Tidak Tersambung</string>
+    <string name="dont_replace">Tidak dirubah</string>
+    <string name="error_bluetooth_not_supported" translatable="false">Bluetooth not supported.</string>
+    <string name="error_syncing_fork" translatable="false">Error syncing your fork:  </string>
+    <string name="establishing_connection" translatable="false">Establishing server connection ...</string>
+    <string name="existing_user" translatable="false">Existing User</string>
+    <string name="failed_message" translatable="false">Oooops...\nTerlalu Cepat</string>
+    <string name="fork_not_found">Hapifork yang telah tersambung saat ini tidak dapat ditemukan. Mohon untuk menyalakan garpu anda dan mencoba kembali atau sambungkan dengan perangkat lainnya. \</string>
+    <string name="hapifork_linked_not_bluetooth" translatable="false">Sudah terdapat Hapifork yang telah tersambung dengan akun ini. Hanya 1 Hapifork yang dapat tersambung ke akun anda.  Jarak Interval per suap telah diatur %s detik.</string>
+    <string name="hapifork_now_active">HAPIfork anda telah aktif</string>
+    <string name="has_hapifork_interval">Sudah terdapat Hapifork yang telah tersambung dengan akun ini. Hanya 1 Hapifork yang dapat tersambung ke akun anda.  Jarak Interval per suap telah diatur %s detik.</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="link_this_device">Sambungkan perangkat ini</string>
+    <string name="login_failed">Kata sandi dan alamat email yang anda masukkan tidak cocok.</string>
+    <string name="manual_message" translatable="false">Mode manual makan</string>
+    <string name="max_counter" translatable="false">999 sec</string>
+    <string name="negative_button">Batalkan</string>
+    <string name="new_to_hapifork" translatable="false">New to HAPIfork</string>
+    <string name="no_ble_devices" translatable="false">No BLE devices found.</string>
+    <string name="no_hapifork_detected">Tidak ada Hapifork yang terdeteksi</string>
+    <string name="no_hapifork_linked">Anda tidak memiliki Hapifork yang tersambung dengan akun anda. Klik dibawah ini untuk mengetahui lebih lanjut. \</string>
+    <string name="paired" translatable="false">paired</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="password_empty" translatable="false">Pengisian password diperlukan</string>
+    <string name="please_make_sure_hapifork_on">Mohon pastikan : \n\n1.    HAPIfork anda terlah dinyalakan dan diposisikan dekat dengan perangkat. \n\n2.    Bluetooth pada perangkat anda menyala\n</string>
+    <string name="positive_button" translatable="false">OK</string>
+    <string name="preference_filename" translatable="false">com.hapilabs.lightweight</string>
+    <string name="preparing_data" translatable="false">Preparing hapifork data. Please wait.</string>
+    <string name="preparing_for_sync" translatable="false">Menunggu sinkronisasi.. Mohon Tunggu</string>
+    <string name="problem_bt_turning_on" translatable="false"> Problem in BT Turning ON </string>
+    <string name="quickaction_5_diet_rules">5 Diet Rules</string>
+    <string name="quickaction_about">Tentang Kami</string>
+    <string name="quickaction_bluetooth">Bluetooth Mode</string>
+    <string name="quickaction_contact_us">Kontak</string>
+    <string name="quickaction_help">Bantuan</string>
+    <string name="quickaction_logout">Logout</string>
+    <string name="quickaction_manual_mode">Manual Mode</string>
+    <string name="quickaction_meal_dashboard">Dashboard Makan</string>
+    <string name="quickaction_meal_list">List Makan</string>
+    <string name="quickaction_sync_mode">Sync Mode</string>
+    <string name="reading_hapifork_data" translatable="false">Membaca data garpu...</string>
+    <string name="replace">Rubah</string>
+    <string name="reset_confirmation" translatable="false">Apakah anda yakin ingin melakukan reset ?</string>
+    <string name="scan_again">Mencari Perangkat</string>
+    <string name="scanning">Sedang mencari perangkat. </string>
+    <string name="scanning_devices_pairing">Sedang mencari perangkat. Pastikan HAPIfork anda menyala.</string>
+    <string name="searching_linked">Mencari perangkat yang tersambung</string>
+    <string name="seconds_unit">detik</string>
+    <string name="select_device">Pilih perangkat</string>
+    <string name="select_fork_from_list">Pilih HAPIfork dari list kemudian klik tombol dibawah ini</string>
+    <string name="set_up" translatable="false">Set Up</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_up">"Tidak memiliki akun HAPI ? Daftar disini </string>
+    <string name="something_went_wrong">Aduh! Ada masalah.</string>
+    <string name="stats_fork_servings">Jumlah Suap</string>
+    <string name="stop_scanning">Berhenti mencari perangkat </string>
+    <string name="succesfully_paired_hapifork">\n\nSelamat!\n\nAnda telah berhasil menyambungkan HAPIfork, anda sekarang dapat segera mengubah kebiasaan makan anda.</string>
+    <string name="success_message" translatable="false">Bagus Sekali!</string>
+    <string name="sync_history" translatable="false">Sync History</string>
+    <string name="sync_will_stop_meal" translatable="false">Sync Mode will stop your current meal.</string>
+    <string name="timer_fs_countdownmessage">Suap berikutnya dalam</string>
+    <string name="timer_fs_idlemessage" translatable="false">Time since last fork serving</string>
+    <string name="unknown_device" translatable="false">Unknown device</string>
+    <string name="use_fork_now">Gunakan Garpu Anda Sekarang "</string>
+    <string name="user_name" translatable="false">Email</string>
+    <string name="username_empty" translatable="false">Pengisian email diperlukan</string>
+    <string name="view_tour">Lihat Penjelasannya</string>
+    <string name="welcome_tour">Selamat Datang %s</string>
+    <style name="Animations"/>
+    <style name="Animations.GrowFromTopLR">
+		<item name="@android:windowEnterAnimation">@anim/slide_in_up</item>
+		<item name="@android:windowExitAnimation">@anim/slide_out_up</item>
+	</style>
+    <style name="Animations.GrowFromTopRL">
+		<item name="@android:windowEnterAnimation">@anim/slide_in_up</item>
+		<item name="@android:windowExitAnimation">@anim/slide_out_up</item>
+	</style>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        
+    </style>
+    <style name="Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@android:drawable/progress_horizontal</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-large-mdpi/overlay.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-large-mdpi/overlay.png"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-large-mdpi/ic_menu_white_24dp.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-large-mdpi/ic_menu_white_24dp.png"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/drawable-large-mdpi/ic_launcher.png",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/drawable-large-mdpi/ic_launcher.png"
+    }
+]

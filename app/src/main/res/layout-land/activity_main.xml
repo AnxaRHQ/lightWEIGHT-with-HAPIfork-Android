@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="#D3D3D3"
+    tools:context=".ViewActivity" >
+
+
+    <include android:id="@+id/headermain" layout="@layout/header_main" />
+    <include android:id="@+id/headersecondary" layout="@layout/header_secondary" />
+   <include android:id="@+id/stats" layout="@layout/stats" />
+   <include android:id="@+id/livemode" layout="@layout/livemode" />
+   
+   <include android:id="@+id/messagemode" android:visibility="gone" layout="@layout/messagemode" />
+   
+   
+    <ImageView
+        android:id="@+id/login_btn"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="10dp"
+        
+        android:src="@drawable/ble_live_start"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+    </ImageView>
+   
+</LinearLayout>

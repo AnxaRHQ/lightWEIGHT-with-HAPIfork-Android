@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <include
+            android:id="@+id/mstart"
+            layout="@layout/mealstatsitem" />
+
+        <include
+            android:id="@+id/duration"
+            layout="@layout/mealstatsitem" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#cacaca" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <include
+            android:id="@+id/targetinterval"
+            layout="@layout/mealstatsitem" />
+
+        <include
+            android:id="@+id/lastinterval"
+            layout="@layout/mealstatsitem" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#cacaca" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <include
+            android:id="@+id/fs"
+            layout="@layout/mealstatsitem" />
+
+        <include
+            android:id="@+id/success"
+            layout="@layout/mealstatsitem" />
+
+    </LinearLayout>
+
+</LinearLayout>

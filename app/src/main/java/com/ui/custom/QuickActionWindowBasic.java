@@ -1,0 +1,219 @@
+package com.ui.custom;
+
+
+
+
+
+import com.hapilabs.lightweight.R;
+import android.content.Context;
+import android.graphics.Rect;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
+import android.view.View;
+import android.view.View.OnTouchListener;
+import android.view.ViewGroup.LayoutParams;
+import android.view.WindowManager;
+import android.widget.PopupWindow;
+
+
+public class QuickActionWindowBasic {
+	protected final View anchor;
+	private final PopupWindow window;
+	private View root;
+	private Drawable background = null;
+	private final WindowManager windowManager;	
+	boolean isLeftToRight;
+	
+	/**
+	 * Create a BetterPopupWindow
+	 * 
+	 * @param anchor
+	 *            the view that the QuickActionWindowBasic will be displaying 'from'
+	 */
+	public QuickActionWindowBasic(View anchor) {
+		this.anchor = anchor;
+		this.window = new PopupWindow(anchor.getContext());
+
+		// when a touch even happens outside of the window
+		// make the window go away
+		this.window.setTouchInterceptor(new OnTouchListener() {
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				if(event.getAction() == MotionEvent.ACTION_OUTSIDE) {
+					QuickActionWindowBasic.this.window.dismiss();
+					//window.dismiss();
+					return true;
+				}
+				return false;
+			}
+		});
+
+		this.windowManager = (WindowManager) this.anchor.getContext().getSystemService(Context.WINDOW_SERVICE);
+		
+		onCreate();
+	}
+
+	/**
+	 * Anything you want to have happen when created. Probably should create a view and setup the event listeners on
+	 * child views.
+	 */
+	protected void onCreate() {}
+
+	/**
+	 * In case there is stuff to do right before displaying.
+	 */
+	protected void onShow() {}
+
+	@SuppressWarnings("deprecation")
+	private void preShow() {
+		if(this.root == null) {
+			throw new IllegalStateException("setContentView was not called with a view to display.");
+		}
+		onShow();
+
+		if(this.background == null) {
+			this.window.setBackgroundDrawable(new BitmapDrawable());
+		} else {
+			this.window.setBackgroundDrawable(this.background);
+		}
+
+		// if using PopupWindow#setBackgroundDrawable this is the only values of the width and hight that make it work
+		// otherwise you need to set the background of the root viewgroup
+		// and set the popupwindow background to an empty BitmapDrawable
+		this.window.setWidth(WindowManager.LayoutParams.WRAP_CONTENT);
+		this.window.setHeight(WindowManager.LayoutParams.WRAP_CONTENT);
+		this.window.setTouchable(true);
+		this.window.setFocusable(true);
+		this.window.setOutsideTouchable(true);
+
+		this.window.setContentView(this.root);
+	}
+
+	public void setBackgroundDrawable(Drawable background) {
+		this.background = background;
+	}
+
+	/**
+	 * Sets the content view. Probably should be called from {@link onCreate}
+	 * 
+	 * @param root
+	 *            the view the popup will display
+	 */
+	public void setContentView(View root) {
+		this.root = root;
+		this.window.setContentView(root);
+	}
+
+	/**
+	 * Will inflate and set the view from a resource id
+	 * 
+	 * @param layoutResID
+	 */
+	public void setContentView(int layoutResID) {
+		LayoutInflater inflator =
+				(LayoutInflater) this.anchor.getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		this.setContentView(inflator.inflate(layoutResID, null));
+	}
+
+	/**
+	 * If you want to do anything when {@link dismiss} is called
+	 * 
+	 * @param listener
+	 */
+	public void setOnDismissListener(PopupWindow.OnDismissListener listener) {
+		this.window.setOnDismissListener(listener);
+	}
+
+	/**
+	 * Displays like a popdown menu from the anchor view
+	 */
+	public void showLikePopDownMenu(boolean isLeftToRight) {
+		this.showLikePopDownMenu(0, 0);
+		this.isLeftToRight = isLeftToRight;
+	}
+
+	/**
+	 * Displays like a popdown menu from the anchor view.
+	 * 
+	 * @param xOffset
+	 *            offset in X direction
+	 * @param yOffset
+	 *            offset in Y direction
+	 */
+	public void showLikePopDownMenu(int xOffset, int yOffset) {
+		this.preShow();
+		if (isLeftToRight)
+			this.window.setAnimationStyle(R.style.Animations_GrowFromTopLR);
+		else
+			this.window.setAnimationStyle(R.style.Animations_GrowFromTopRL);
+			
+		this.window.showAsDropDown(this.anchor, xOffset, yOffset);
+	}
+
+	/**
+	 * Displays like a QuickAction from the anchor view.
+	 */
+	public void showLikeQuickAction() {
+		this.showLikeQuickAction(0, 0);
+	}
+
+	/**
+	 * Displays like a QuickAction from the anchor view.
+	 * 
+	 * @param xOffset
+	 *            offset in the X direction
+	 * @param yOffset
+	 *            offset in the Y direction
+	 */
+	public void showLikeQuickAction(int xOffset, int yOffset) {
+		this.preShow();
+		if (isLeftToRight)
+			this.window.setAnimationStyle(R.style.Animations_GrowFromTopLR);
+			else
+				this.window.setAnimationStyle(R.style.Animations_GrowFromTopRL);
+			
+		int[] location = new int[2];
+		this.anchor.getLocationOnScreen(location);
+		
+		@SuppressWarnings("deprecation")
+		int screenWidth = this.windowManager.getDefaultDisplay().getWidth();
+		
+		@SuppressWarnings("deprecation")
+		int screenHeight = this.windowManager.getDefaultDisplay().getHeight();
+
+		Rect anchorRect =
+				new Rect(location[0], location[1], location[0] + this.anchor.getWidth(), location[1]
+					+ this.anchor.getHeight());
+		
+		new Rect(location[0], location[1], location[0] + screenWidth, location[1]
+				+ screenHeight);
+		
+		this.root.measure(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+
+		int rootWidth = this.root.getMeasuredWidth();
+		int rootHeight = this.root.getMeasuredHeight();
+
+	
+		int xPos = ((screenWidth - rootWidth) / 2) + xOffset;
+		int yPos = anchorRect.top - rootHeight + yOffset;
+
+		// display on bottom
+		if(rootHeight > anchorRect.top) {
+			yPos = anchorRect.bottom + yOffset;
+			if (isLeftToRight)
+				this.window.setAnimationStyle(R.style.Animations_GrowFromTopLR);
+				else
+					this.window.setAnimationStyle(R.style.Animations_GrowFromTopRL);
+				
+		}
+
+		this.window.showAtLocation(this.anchor, Gravity.NO_GRAVITY, xPos, yPos);
+	}
+
+	public void dismiss() {
+		this.window.dismiss();
+	}
+}

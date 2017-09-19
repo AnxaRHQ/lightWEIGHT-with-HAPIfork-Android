@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hapilabs.lightweight">
+
+    
+     <!-- Declare this required feature if you want to make the app available to BLE-capable
+    devices only.  If you want to make your app available to devices that don't support BLE,
+    you should omit this in the manifest.  Instead, determine BLE capability by using
+    PackageManager.hasSystemFeature(FEATURE_BLUETOOTH_LE) -->
+    <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />  
+    <uses-permission android:name="android.permission.INTERNET" />
+ 
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:name="com.controllers.ApplicationEx"
+        
+        android:label="@string/app_name">
+        <activity
+            android:name="com.ui.custom.SyncActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+             android:theme="@style/FullscreenTheme">
+            <intent-filter>
+              
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>    
+        <activity
+            android:name="com.ui.custom.ViewActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+             android:theme="@style/FullscreenTheme">
+            <intent-filter>
+              
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ui.custom.WebKitActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+             android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+   <activity
+            android:name="com.ui.custom.SplashActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+             android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                       <category android:name="android.intent.category.LAUNCHER" />
+         
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.ui.custom.PairingActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+             android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ui.custom.TourPageActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+             android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                
+            </intent-filter>
+        </activity>
+        <activity android:name="com.blespp.client.DeviceListActivity" android:label="@string/app_name" android:theme="@android:style/Theme.Dialog"/>
+        <service android:name="com.blespp.client.CustomService" android:enabled="true" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="4bd653fefec16d38537bf1546f014e6c75d7f206" />
+    </application>
+  
+</manifest>

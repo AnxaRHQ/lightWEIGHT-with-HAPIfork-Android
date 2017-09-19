@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/anim/slide_out_up.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/anim/slide_out_up.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/anim/slide_in_up.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/anim/pull_up_from_bottom.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/anim/pull_up_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/anim/progress_anim_list.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/anim/progress_anim_list.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/anim/pull_upout_from_bottom.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/anim/pull_upout_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/anim/image_click_anim.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/anim/image_click_anim.xml"
+    }
+]

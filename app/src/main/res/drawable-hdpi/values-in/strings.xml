@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HAPIfork Lite</string>
+    <string name="sign_in">Masuk</string>
+    <string name="sign_up">"Tidak memiliki akun HAPI ? Daftar disini "</string>
+    <string name="welcome_tour">Selamat Datang %s</string>
+    <string name="has_hapifork_interval">Sudah terdapat Hapifork yang telah tersambung dengan akun ini. Hanya 1 Hapifork yang dapat tersambung ke akun anda.  Jarak Interval per suap telah diatur %s detik.</string>
+    <string name="replace">Rubah</string>
+    <string name="dont_replace">Tidak dirubah</string>
+    <string name="no_hapifork_linked">Anda tidak memiliki Hapifork yang tersambung dengan akun anda. Klik dibawah ini untuk mengetahui lebih lanjut. \"</string>
+    <string name="view_tour">Lihat Penjelasannya</string>
+    <string name="scanning_devices_pairing">Sedang mencari perangkat. Pastikan HAPIfork anda menyala.</string>
+    <string name="stop_scanning">"Berhenti mencari perangkat "</string>
+    <string name="no_hapifork_detected">Tidak ada Hapifork yang terdeteksi</string>
+    <string name="please_make_sure_hapifork_on">Mohon pastikan : \n\n1.    HAPIfork anda terlah dinyalakan dan diposisikan dekat dengan perangkat. \n\n2.    Bluetooth pada perangkat anda menyala\n</string>
+    <string name="scan_again">Mencari Perangkat</string>
+    <string name="select_fork_from_list">Pilih HAPIfork dari list kemudian klik tombol dibawah ini</string>
+    <string name="link_this_device">Sambungkan perangkat ini</string>
+    <string name="hapifork_now_active">HAPIfork anda telah aktif</string>
+    <string name="succesfully_paired_hapifork">\n\nSelamat!\n\nAnda telah berhasil menyambungkan HAPIfork, anda sekarang dapat segera mengubah kebiasaan makan anda.</string>
+    <string name="use_fork_now">"Gunakan Garpu Anda Sekarang "</string>
+    <string name="select_device">Pilih perangkat</string>
+    <string name="searching_linked">"Mencari perangkat yang tersambung "</string>
+    <string name="negative_button">Batalkan</string>
+    <string name="fork_not_found">Hapifork yang telah tersambung saat ini tidak dapat ditemukan. Mohon untuk menyalakan garpu anda dan mencoba kembali atau sambungkan dengan perangkat lainnya. \"</string>
+    <string name="scanning">"Sedang mencari perangkat. "</string>
+
+
+</resources>

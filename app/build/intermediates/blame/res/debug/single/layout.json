@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/activity_web_view_test.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/exploded-aar/testfairy/testfairy-android-sdk/1.5.5/res/layout/activity_web_view_test.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/device_element.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/device_element.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/tourpage_item.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/tourpage_item.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/stats.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/stats.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/messagemode.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/messagemode.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/tourpage.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/tourpage.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/login.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/login.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/splash.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/device_list.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/device_list.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/welcome.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/welcome.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/title_bar.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/title_bar.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/add_quickaction.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/add_quickaction.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/simplerow.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/simplerow.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/activity_sync.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/activity_sync.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/setup_login.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/setup_login.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/livemode.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/livemode.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/webkit.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/webkit.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/mealstatsitem.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/mealstatsitem.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/header_main.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/header_main.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/pairing.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/pairing.xml"
+    },
+    {
+        "merged": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/build/intermediates/res/merged/debug/layout/header_secondary.xml",
+        "source": "/Users/aprilanxa/AndroidStudioProjects/HAPIfork for Lighthouse Clinic/app/src/main/res/layout/header_secondary.xml"
+    }
+]
